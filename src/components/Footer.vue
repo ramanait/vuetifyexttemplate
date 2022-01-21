@@ -3,23 +3,16 @@
     <v-layout footer-bottom>
       <!-- Organisation Digital Logo & Link -->
       <v-flex xs6>
-        <a href="https://github.com/mitevpi">
-          <img
-            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-            class="image-center-vertical"
-            height="18"
-            alt="Organisation"
-          />
-        </a>
+        <img
+          src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+          class="image-center-vertical"
+          height="18"
+          alt="Organisation"
+        />
       </v-flex>
 
       <!-- Social Media Icons -->
-      <v-flex
-        xs6
-        shrink
-        style="text-align: right"
-        href="https://github.com/mitevpi"
-      >
+      <v-flex xs6 shrink style="text-align: right" href="https://github.com/mitevpi">
         <v-btn
           id="btn-footer-twitter"
           ma-0

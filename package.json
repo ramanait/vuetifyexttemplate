@@ -1,11 +1,10 @@
 {
-  "name": "component-library",
-  "version": "1.4.0",
+  "name": "scomponent-library",
+  "version": "0.0.1",
   "description": "Modular, reusable components and styles for use in web applications.",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name component-library src/index.js",
+    "build": "vue-cli-service build --target lib --name scomponent-library src/index.js",
     "lint": "vue-cli-service lint --fix",
     "build-storybook": "build-storybook",
     "build:all": "npm run build && npm run build:app && npm run build-storybook",
@@ -14,12 +13,12 @@
     "storybook": "start-storybook -p 6006",
     "test": "vue-cli-service test:unit",
     "prerelease": "npm run lint --fix && npm run build:all",
-    "release": "standard-version"
+    "release": "alpha"
   },
-  "main": "dist/component-library.common.js",
-  "unpkg": "dist/component-library.umd.min.js",
-  "cdn": "dist/component-library.umd.min.js",
-  "browser": "dist/component-library.umd.min.js",
+  "main": "dist/scomponent-library.common.js",
+  "unpkg": "dist/scomponent-library.umd.min.js",
+  "cdn": "dist/scomponent-library.umd.min.js",
+  "browser": "dist/scomponent-library.umd.min.js",
   "files": [
     "src/components",
     "src/styles",
